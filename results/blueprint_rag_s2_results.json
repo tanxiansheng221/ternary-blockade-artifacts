@@ -1,0 +1,256 @@
+{
+ "teacher": {
+  "final": {
+   "top1": {
+    "nll_bits": 2.2264,
+    "acc": 0.4363,
+    "exact4": 0.2285
+   },
+   "random": {
+    "nll_bits": 2.2197,
+    "acc": 0.4363,
+    "exact4": 0.2324
+   },
+   "none": {
+    "nll_bits": 2.2536,
+    "acc": 0.415,
+    "exact4": 0.2041
+   },
+   "retrieval_gain_bits": 0.0272
+  },
+  "traj": [
+   [
+    1000,
+    {
+     "top1": {
+      "nll_bits": 2.5237,
+      "acc": 0.3691,
+      "exact4": 0.209
+     },
+     "random": {
+      "nll_bits": 2.461,
+      "acc": 0.3755,
+      "exact4": 0.1992
+     },
+     "none": {
+      "nll_bits": 2.5657,
+      "acc": 0.3574,
+      "exact4": 0.1973
+     },
+     "retrieval_gain_bits": 0.042
+    }
+   ],
+   [
+    2000,
+    {
+     "top1": {
+      "nll_bits": 2.3877,
+      "acc": 0.3979,
+      "exact4": 0.2227
+     },
+     "random": {
+      "nll_bits": 2.331,
+      "acc": 0.4146,
+      "exact4": 0.2148
+     },
+     "none": {
+      "nll_bits": 2.4257,
+      "acc": 0.3823,
+      "exact4": 0.1953
+     },
+     "retrieval_gain_bits": 0.038
+    }
+   ],
+   [
+    3000,
+    {
+     "top1": {
+      "nll_bits": 2.3236,
+      "acc": 0.4175,
+      "exact4": 0.2324
+     },
+     "random": {
+      "nll_bits": 2.2513,
+      "acc": 0.4351,
+      "exact4": 0.2148
+     },
+     "none": {
+      "nll_bits": 2.3448,
+      "acc": 0.4048,
+      "exact4": 0.209
+     },
+     "retrieval_gain_bits": 0.0212
+    }
+   ],
+   [
+    4000,
+    {
+     "top1": {
+      "nll_bits": 2.26,
+      "acc": 0.4312,
+      "exact4": 0.2324
+     },
+     "random": {
+      "nll_bits": 2.1902,
+      "acc": 0.4531,
+      "exact4": 0.2246
+     },
+     "none": {
+      "nll_bits": 2.2924,
+      "acc": 0.4263,
+      "exact4": 0.2188
+     },
+     "retrieval_gain_bits": 0.0324
+    }
+   ],
+   [
+    5000,
+    {
+     "top1": {
+      "nll_bits": 2.2415,
+      "acc": 0.4375,
+      "exact4": 0.2305
+     },
+     "random": {
+      "nll_bits": 2.1683,
+      "acc": 0.4561,
+      "exact4": 0.2383
+     },
+     "none": {
+      "nll_bits": 2.2645,
+      "acc": 0.4326,
+      "exact4": 0.2207
+     },
+     "retrieval_gain_bits": 0.023
+    }
+   ]
+  ]
+ },
+ "tern_distill": {
+  "final": {
+   "top1": {
+    "nll_bits": 2.2792,
+    "acc": 0.4233,
+    "exact4": 0.2197
+   },
+   "random": {
+    "nll_bits": 2.2742,
+    "acc": 0.4294,
+    "exact4": 0.2207
+   },
+   "none": {
+    "nll_bits": 2.3134,
+    "acc": 0.4023,
+    "exact4": 0.2051
+   },
+   "retrieval_gain_bits": 0.0342
+  },
+  "traj": [
+   [
+    1000,
+    {
+     "top1": {
+      "nll_bits": 2.486,
+      "acc": 0.3716,
+      "exact4": 0.209
+     },
+     "random": {
+      "nll_bits": 2.4324,
+      "acc": 0.4014,
+      "exact4": 0.2109
+     },
+     "none": {
+      "nll_bits": 2.5573,
+      "acc": 0.3706,
+      "exact4": 0.1973
+     },
+     "retrieval_gain_bits": 0.0713
+    }
+   ],
+   [
+    2000,
+    {
+     "top1": {
+      "nll_bits": 2.3893,
+      "acc": 0.416,
+      "exact4": 0.2285
+     },
+     "random": {
+      "nll_bits": 2.3221,
+      "acc": 0.4238,
+      "exact4": 0.2246
+     },
+     "none": {
+      "nll_bits": 2.4015,
+      "acc": 0.4072,
+      "exact4": 0.1973
+     },
+     "retrieval_gain_bits": 0.0122
+    }
+   ],
+   [
+    3000,
+    {
+     "top1": {
+      "nll_bits": 2.3427,
+      "acc": 0.4219,
+      "exact4": 0.2285
+     },
+     "random": {
+      "nll_bits": 2.2737,
+      "acc": 0.4351,
+      "exact4": 0.2148
+     },
+     "none": {
+      "nll_bits": 2.3706,
+      "acc": 0.4097,
+      "exact4": 0.2031
+     },
+     "retrieval_gain_bits": 0.0279
+    }
+   ],
+   [
+    4000,
+    {
+     "top1": {
+      "nll_bits": 2.3107,
+      "acc": 0.4233,
+      "exact4": 0.2246
+     },
+     "random": {
+      "nll_bits": 2.2351,
+      "acc": 0.4395,
+      "exact4": 0.2207
+     },
+     "none": {
+      "nll_bits": 2.3338,
+      "acc": 0.417,
+      "exact4": 0.207
+     },
+     "retrieval_gain_bits": 0.0231
+    }
+   ],
+   [
+    5000,
+    {
+     "top1": {
+      "nll_bits": 2.2894,
+      "acc": 0.4238,
+      "exact4": 0.2285
+     },
+     "random": {
+      "nll_bits": 2.2209,
+      "acc": 0.4502,
+      "exact4": 0.2324
+     },
+     "none": {
+      "nll_bits": 2.3166,
+      "acc": 0.4263,
+      "exact4": 0.209
+     },
+     "retrieval_gain_bits": 0.0272
+    }
+   ]
+  ]
+ }
+}
